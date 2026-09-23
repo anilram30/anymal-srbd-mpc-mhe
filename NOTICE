@@ -1,0 +1,24 @@
+Unified SRBD NMPC + moving-horizon estimation framework for ANYmal-C
+Copyright 2026 Sreeram Anil
+
+This product includes software developed by Sreeram Anil.
+
+Licensed under the Apache License, Version 2.0. You may not use this software
+except in compliance with the License. A copy of the License is provided in the
+LICENSE file and at http://www.apache.org/licenses/LICENSE-2.0.
+
+If you use this software, in whole or in part, this attribution to Sreeram Anil
+must be retained (see Section 4 of the License).
+
+------------------------------------------------------------------------------
+Third-party components:
+
+  * The ANYmal-C robot model under sim/ (anymal_c_torque.xml and the referenced
+    meshes/textures) derives from the MuJoCo Menagerie
+    (https://github.com/google-deepmind/mujoco_menagerie), Copyright the MuJoCo
+    Menagerie authors, licensed BSD-3-Clause.
+
+  * The real-time-iteration NMPC and moving-horizon-estimation solver libraries
+    that this framework binds to (behind interface/solver_abi.h) are separate,
+    unpublished work by Sreeram Anil and are NOT included in or licensed by this
+    repository.
